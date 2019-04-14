@@ -1,9 +1,10 @@
 # BEFORE BEGINNING
+
   - Ensure all Python (3.6) dependencies in requirements.txt are satisfied
   - Edit all files in the folder "./rc", replacing text in curly brackets with absolute paths to training, validation and test data
   - Ensure that images and their labels are stored in the exact same parent directory, with images in {PARENT_DIR}/images and labels in {PARENT_DIR}/labels
 
-# TO TEST THE MODEL DESCRIBED IN THE PAPER:
+# TO TEST THE MODEL DESCRIBED IN THE PAPER
 
   - Edit "cfg/rc.data" such that the "valid" variable is set to "rc/val.txt" or "rc/test.txt", depending on your goals
   - Run "python test.py --weights weights/yolov3-tiny-best.pt"
