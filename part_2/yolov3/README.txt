@@ -27,5 +27,4 @@ For more information, please e-mail sclark78@gatech.edu or reference the Ultraly
 
 
 
-Note:
 Full credit to Ultralytics for providing this implementation of YOLOv3 https://github.com/ultralytics/yolov3
