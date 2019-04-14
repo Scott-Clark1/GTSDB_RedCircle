@@ -136,13 +136,4 @@ if __name__ == '__main__':
     augmented_data['Ymax'] = augmented_data['Ymax'].astype(int)
     augmented_data['label'] = augmented_data['label'].astype(int)
     augmented_data.to_csv(INPUT_DIR + '/gt_aug_train.txt', index=False)
-    
-  
-  #val_data = GTSDBSet('val',transform = transform)
-
-  #val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=True, num_workers=0)
-
-  #test_data = GTSDBSet('test',transform = transform)
-
-  #test_loader = DataLoader(test_data, batch_size=batch_size, shuffle=True, num_workers=0)
 
